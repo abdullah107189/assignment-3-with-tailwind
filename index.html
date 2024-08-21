@@ -20,7 +20,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        green: '#ABEF5F'
+                        green: '#ABEF5F',
+                        greenSecond: '#ABEF5F80'
                     }
                 }
             }
@@ -51,7 +52,7 @@
                         </div>
                     </a>
                 </div>
-                
+
                 <div class="navbar-center hidden md:flex">
                     <ul class="flex xl:gap-6 gap-4">
                         <li><a href="#" class="">Home</a></li>
@@ -83,7 +84,7 @@
                         </div>
 
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-9 w-28 p-2 shadow">
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-9 w-32 p-2 shadow">
                             <li><a href="#" class="">Home</a></li>
                             <li><a href="#" class="">Services</a></li>
                             <li><a href="#" class="">Portfolio</a></li>
@@ -94,6 +95,29 @@
                 </div>
             </div>
 
+            <!-- header cover section  -->
+            <div class="p-4 md:p-0">
+                <!-- banner image  -->
+                <div class="lg:w-1/2 w-11/12 mx-auto">
+                    <img class="w-full md:p-0 p-2" src="./images/banner.png" alt="">
+                </div>
+
+                <!-- banner content -->
+                <div class="text-center px-2">
+                    <h1 class="md:text-6xl text-3xl md:w-4/5 w-4/5 mx-auto font-extrabold">A barn house of this design
+                        has a striking appearance</h1>
+                    <p class="md:my-6 my-3 md:w-2/3 mx-auto">The barn house captivates with its blend of rustic charm
+                        and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class="md:flex justify-center w-full">
+                        <div class="flex justify-center gap-2 bg-greenSecond px-4 py-2 rounded-full items-center">
+                            <h1 class="text-xl font-bold">View Details</h1>
+                            <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-green rounded-full"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 </body>
