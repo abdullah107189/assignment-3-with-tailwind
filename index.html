@@ -20,6 +20,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        green: '#ABEF5F'
                     }
                 }
             }
@@ -36,7 +37,65 @@
 </head>
 
 <body class="font-manrope">
-    <h1>hello world</h1>
+
+    <header>
+        <div class="bg-gradient-to-b from-gray-200 to-white">
+            <!-- navbar section -->
+            <div class="navbar bg-base-100 max-w-[1170px] mx-auto bg-transparent">
+
+                <div class=" navbar-start">
+                    <a class="">
+                        <div class="flex gap-2 ">
+                            <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-green rounded-full"></i>
+                            <h1 class="text-3xl font-bold">Rinterio</h1>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="navbar-center hidden md:flex">
+                    <ul class="flex xl:gap-6 gap-4">
+                        <li><a href="#" class="">Home</a></li>
+                        <li><a href="#" class="">Services</a></li>
+                        <li><a href="#" class="">Portfolio</a></li>
+                        <li><a href="#" class="">Blogs</a></li>
+                        <li><a href="#" class="">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="navbar-end">
+                    <div class="hidden md:flex items-center gap-3">
+                        <i class="fa-solid fa-magnifying-glass p-3 bg-white rounded-full"></i>
+                        <i class="fa-solid fa-cart-shopping p-3 bg-white rounded-full"></i>
+                        <div class="flex gap-2 bg-green px-4 py-2 rounded-full items-center">
+                            <h1 class="text-xl font-bold">Book Consult</h1>
+                            <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-black text-white rounded-full"></i>
+                        </div>
+                    </div>
+
+                    <div class="dropdown dropdown-left">
+                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-9 w-28 p-2 shadow">
+                            <li><a href="#" class="">Home</a></li>
+                            <li><a href="#" class="">Services</a></li>
+                            <li><a href="#" class="">Portfolio</a></li>
+                            <li><a href="#" class="">Blogs</a></li>
+                            <li><a href="#" class="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
 </body>
 
 </html>
