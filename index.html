@@ -37,6 +37,15 @@
     <!-- fontawosome  -->
     <script src="https://kit.fontawesome.com/fb58c17c69.js" crossorigin="anonymous"></script>
 
+    <style>
+        .bg-photo {
+            background-image: url(./images/paper.jpg);
+            background-position: cover;
+            background-repeat: no-repeat;
+            object-fit: contain;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body class="font-manrope scroll-smooth">
@@ -73,7 +82,8 @@
                             <i class="fa-solid fa-cart-shopping p-3 bg-white rounded-full"></i>
                             <div class="flex gap-2 bg-green px-4 py-2 rounded-full items-center">
                                 <h1 class="text-xl font-bold">Book Consult</h1>
-                                <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-black text-white rounded-full"></i>
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 p-3 w-10 bg-black text-white rounded-full"></i>
                             </div>
                         </div>
 
@@ -295,6 +305,76 @@
             </div>
         </div>
     </main>
+
+    <!-- connect section  -->
+    <div class="bg-photo">
+        <div class="max-w-[1170px] mx-auto md:pt-20 py-5 md:p-0 p-3">
+            <!-- connect content  -->
+            <div class="">
+                <div class="md:space-y-6 space-y-3 text-center md:pb-8 pb-4">
+                    <button class="font-bold px-5 py-2 bg-greenSecond rounded-full">
+                        <i class="fa-solid fa-arrow-right inline"></i>
+                        <span class="ml-3 text-xl">Let's Connect</span>
+                    </button>
+                    <h1 class="md:text-4xl text-3xl font-extrabold">Let's Discuss Next Project
+                    </h1>
+                    <p class="w-5/6 mx-auto">The barn house captivates with its blend of rustic charm and modern
+                        sophistication,
+                        featuring weathered wood, sleek metal accents.</p>
+                </div>
+            </div>
+
+            <!-- connect form  -->
+            <form class="grid md:grid-cols-2 md:w-10/12 mx-auto gap-6 md:p-0">
+                <input class="p-5 rounded-full bg-white placeholder:text-paragraph" placeholder="Enter Your First Name"
+                    type="text" name="" id="">
+                <input class="p-5 rounded-full bg-white placeholder:text-paragraph" placeholder="Enter Your Latest Name"
+                    type="text" name="" id="">
+                <input class="p-5 rounded-full bg-white placeholder:text-paragraph" placeholder="Enter Your Number"
+                    type="number" name="" id="">
+                <input class="p-5 rounded-full bg-white placeholder:text-paragraph" placeholder="Enter Your Email"
+                    type="email" name="" id="">
+                <input class="p-5 rounded-xl bg-white placeholder:text-paragraph md:col-span-2 pb-32"
+                    placeholder="Write your message here" type="text" name="" id="">
+                <div class="bg-green md:col-span-2 rounded-xl p-2 flex items-center justify-center md:mb-10 mb-5">
+                    <button class=" flex items-center justify-center gap-3 font-bold">
+                        Send Mail
+                        <i class="fa-solid fa-arrow-right -rotate-45 w-10 text-white p-3 bg-black rounded-full"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="bg-[#1C1C1C] text-white">
+        <div class="max-w-[1170px] mx-auto text-center md:py-20 py-10 ">
+            <a class="flex items-center justify-center">
+                <div class="flex gap-2 ">
+                    <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-green text-black rounded-full"></i>
+                    <h1 class="text-3xl font-bold">Rinterio</h1>
+                </div>
+            </a>
+            <div class="md:space-y-12 space-y-6 mt-3">
+                <p class="text-paragraph md:w-2/3 mx-auto">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring weathered wood, sleek metal accents.</p>
+                <ul class="md:flex justify-between md:w-4/6 mx-auto space-y-4 text-xl">
+                    <li><a href="#" class="">Home</a></li>
+                    <li><a href="#" class="">Services</a></li>
+                    <li><a href="#" class="">Portfolio</a></li>
+                    <li><a href="#" class="">Blogs</a></li>
+                    <li><a href="#" class="">Contact Us</a></li>
+                </ul>
+                <div class="flex w-5/6 bg-green  rounded-full p-2 mx-auto items-center justify-center ">
+                    <button class=" flex items-center justify-center gap-3 font-bold text-black">
+                        Send Mail
+                        <i class="fa-solid fa-arrow-right -rotate-45 w-10 text-white p-3 bg-black rounded-full"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
