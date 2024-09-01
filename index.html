@@ -38,6 +38,14 @@
     <script src="https://kit.fontawesome.com/fb58c17c69.js" crossorigin="anonymous"></script>
 
     <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .body {
+            cursor: url("./images/cursor.png"), auto;
+        }
+
         .bg-photo {
             background-image: url(./images/paper.jpg);
             background-position: cover;
@@ -48,9 +56,14 @@
     </style>
 </head>
 
-<body class="font-manrope scroll-smooth">
+<body class="font-manrope">
+    <div class="fixed z20 right-5 bottom-5">
+        <a href="#header">
+            <i class="fa-solid fa-arrow-up-long bg-green p-4 rounded-full"></i>
+        </a>
+    </div>
 
-    <header>
+    <header id="header">
         <div class="bg-gradient-to-b from-gray-200 to-white">
             <div class=" max-w-[1170px] mx-auto  lg:pt-6 py-3">
                 <!-- navbar section -->
@@ -453,6 +466,54 @@
             </div>
     </section>
 
+
+
+
+    <!-- section  -->
+
+    <div class="md:flex justify-between items-center md:gap-10 gap-5">
+        <!-- left side  -->
+        <div class="md:p-0 p-3">
+            <img class="md:flex hidden" src="./assets/Vector.png" alt="">
+            <button class="btn   mt-5 w-32 bg-white rounded-full font-bold"> <i class="fa-solid fa-arrow-right"></i>
+                About us</button>
+            <h1 class="font-bold md:text-5xl text-3xl  md:mt-16 mt-5 text-center">We design thoughtful, <br> liveable
+                spaces</h1>
+            <p class=" mt-4 text-center">At the heart of our design philosophy is the creation of spaces that are both
+                thoughtful
+                and livable. we create spaces that are not just beautiful but also enhance the quality of life for those
+                who
+                live in them.</p>
+
+            <div class="flex mt-10 items-center gap-5 p-3   rounded-xl  bg-white ">
+                <div>
+                    <img class="" src="./assets/commercial.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-3xl">Commercial</h2>
+                    <p class="">In the realm of commercial design, <br> we focus on creating.</p>
+                </div>
+
+            </div>
+            <div class="flex mt-5 items-center gap-5 p-3  rounded-xl  bg-white ">
+                <div>
+                    <img class="" src="./assets/residential.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-3xl">Residential</h2>
+                    <p class="">In the realm of commercial design, <br> we focus on creating.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- right side  -->
+        <div>
+            <img class="" src="./assets/Rectangle.png" alt="">
+        </div>
+    </div>
 
 
     <footer class="bg-[#1C1C1C] text-white">
